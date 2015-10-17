@@ -1,7 +1,3 @@
-NETCDF_INC_DIR="/global/software/lib64/intel/ncsa-tools/netcdf-4.3.3.1/include"
-NETCDF_INCDIR="-I $NETCDF_INC_DIR"
-NETCDF_LIB_DIR="/global/software/lib64/intel/ncsa-tools/netcdf-4.3.3.1/lib"
-NETCDF_LIB="-L$NETCDF_LIB_DIR -lirc -lnetcdf"
+NETCDF_LIB="-lnetcdf"
 
-HDF5_LIB_DIR="/global/software/lib64/intel/ncsa-tools/hdf5-1.8.15p1/lib"
-HDF5_LIB="-L$HDF5_LIB_DIR -lhdf5_hl -lhdf5 -lz"
+HDF5_LIB="-lhdf5_hl -lhdf5 -lz"
