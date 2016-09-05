@@ -1,3 +1,4 @@
-NETCDF_LIB="-lnetcdf"
+NETCDF_INCDIR="-I/global/software/lib64/intel/ncsa-tools/netcdf-fortran-4.4.0/include"
+NETCDF_LIB="-lnetcdf -lnetcdff"
 
 HDF5_LIB="-lhdf5_hl -lhdf5 -lz"
