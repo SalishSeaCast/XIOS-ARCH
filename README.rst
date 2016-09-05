@@ -11,9 +11,9 @@ Quick Usage
 ===========
 
 * Check out XIOS source code from the  ``http://forge.ipsl.jussieu.fr/ioserver/`` SVN repository
-*
+
 * Clone this repository beside your XIOS checkout
-*
+
 * Symlink the ``arch-*`` files for the system that you are working on into the
   ``XIOS/arch/`` directory.
   For example, on ``orcinus.westgrid.ca``, symlink each of the ``WESTGRID/arch-X64_ORCINUS.*`` into the
