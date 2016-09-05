@@ -2,7 +2,7 @@
 ###################       Project xios - xmlioserver       #####################
 ################################################################################
 
-%CCOMPILER      mpicc
+%CCOMPILER      mpic++
 %FCOMPILER      mpif90
 %LINKER         mpif90
 
