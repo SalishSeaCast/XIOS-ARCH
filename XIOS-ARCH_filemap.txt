@@ -1,0 +1,27 @@
+# File map for 5-Sep-2016 creation of XIOS-ARCH repo
+# to contain XIOS arch files publicly and separately from XIOS codebase.
+#
+# The following command was used to create the XIOS-ARCH repo:
+#    cd MEOPAR
+#    hg convert --filemap XIOS/XIOS-ARCH_filemap.txt XIOS XIOS-ARCH
+
+include XIOS-ARCH_filemap.txt
+
+include arch/arch-GCC_SALISH.fcm
+rename arch/arch-GCC_SALISH.fcm UBC-EOAS/arch-GCC_SALISH.fcm
+include arch/arch-GCC_SALISH.path
+rename arch/arch-GCC_SALISH.path UBC-EOAS/arch-GCC_SALISH.path
+
+include arch/arch-X64_JASPER.env
+rename arch/arch-X64_JASPER.env WESTGRID/arch-X64_JASPER.env
+include arch/arch-X64_JASPER.fcm
+rename arch/arch-X64_JASPER.fcm WESTGRID/arch-X64_JASPER.fcm
+include arch/arch-X64_JASPER.path
+rename arch/arch-X64_JASPER.path WESTGRID/arch-X64_JASPER.path
+
+include arch/arch-X64_ORCINUS.env
+rename arch/arch-X64_ORCINUS.env WESTGRID/arch-X64_ORCINUS.env
+include arch/arch-X64_ORCINUS.fcm
+rename arch/arch-X64_ORCINUS.fcm WESTGRID/arch-X64_ORCINUS.fcm
+include arch/arch-X64_ORCINUS.path
+rename arch/arch-X64_ORCINUS.path WESTGRID/arch-X64_ORCINUS.path
