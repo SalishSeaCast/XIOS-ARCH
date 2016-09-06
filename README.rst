@@ -2,7 +2,7 @@
 Salish Sea NEMO Model XIOS ARCH Files
 *************************************
 
-XIOS build configuration files for the `Salish Sea NEMO ocean model`.
+XIOS build configuration files for the `Salish Sea NEMO ocean model`_.
 
 .. _Salish Sea NEMO ocean model: http://salishsea-meopar-docs.readthedocs.io/en/latest/index.html
 
