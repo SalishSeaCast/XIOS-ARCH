@@ -20,7 +20,7 @@ Quick Usage
   ``XIOS/arch/`` directory.
 
 * Build XIOS with ``./make_xios``.
-  For example, on ``orcinus``, use ``./make_xios --arch X64_ORCIUNS --job 8``
+  For example, on ``orcinus``, use ``./make_xios --arch X64_ORCINUS --job 8``
 
 Please see the Salish Sea NEMO `quick start guide`_ for the system that you are working on for more details and specific commands.
 
