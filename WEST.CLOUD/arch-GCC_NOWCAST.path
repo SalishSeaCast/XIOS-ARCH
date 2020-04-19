@@ -1,2 +1,0 @@
-NETCDF_LIB="-lnetcdff -lnetcdf"
-HDF5_LIB=" -lz"
