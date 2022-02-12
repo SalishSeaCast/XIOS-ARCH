@@ -16,13 +16,14 @@ Quick Usage
 
 * Symlink the ``arch-*`` files for the system that you are working on into the
   ``XIOS/arch/`` directory.
-  For example, on ``orcinus.westgrid.ca``, symlink each of the ``WESTGRID/arch-X64_ORCINUS.*`` into the
-  ``XIOS/arch/`` directory.
+  For example, on ``orcinus.westgrid.ca``, symlink each of the ``WESTGRID/arch-X64_ORCINUS.*``
+  into the ``XIOS/arch/`` directory.
 
 * Build XIOS with ``./make_xios``.
   For example, on ``orcinus``, use ``./make_xios --arch X64_ORCINUS --job 8``
 
-Please see the Salish Sea NEMO `quick start guide`_ for the system that you are working on for more details and specific commands.
+Please see the Salish Sea NEMO `quick start guide`_ for the system that you are working on
+for more details and specific commands.
 
 .. _quick start guide: http://salishsea-meopar-docs.readthedocs.io/en/latest/code-notes/salishsea-nemo/quickstart/index.html#quick-start-guide
 
@@ -30,10 +31,10 @@ Please see the Salish Sea NEMO `quick start guide`_ for the system that you are 
 License
 =======
 
-The Salish Sea NEMO Model XIOS ARCH files are copyright 2015-2021 by the
+The Salish Sea NEMO Model XIOS ARCH files are copyright 2015 – prsent by the
 `Salish Sea MEOPAR Project Contributors`_ and The University of British Columbia.
 
-.. _Salish Sea MEOPAR Project Contributors: https://github.com/SalishSeaCast/docs/blob/master/CONTRIBUTORS.rst
+.. _Salish Sea MEOPAR Project Contributors: https://github.com/SalishSeaCast/docs/blob/main/CONTRIBUTORS.rst
 
 They are licensed under the Apache License, Version 2.0.
 http://www.apache.org/licenses/LICENSE-2.0
