@@ -10,17 +10,20 @@ XIOS build configuration files for the `SalishSeaCast NEMO ocean model`_.
 Quick Usage
 ===========
 
-* Check out XIOS source code from the  ``http://forge.ipsl.jussieu.fr/ioserver/`` SVN repository
+* If you are a member of the SalishSeaCast organization on GitHub,
+  clone the https://github.com/SalishSeaCast/XIOS-2 repository,
+  otherwise,
+  check out the XIOS source code from the  http://forge.ipsl.jussieu.fr/ioserver/ SVN repository
 
 * Clone this repository beside your XIOS checkout
 
 * Symlink the ``arch-*`` files for the system that you are working on into the
   ``XIOS/arch/`` directory.
-  For example, on ``orcinus.westgrid.ca``, symlink each of the ``WESTGRID/arch-X64_ORCINUS.*``
+  For example, on ``sockeye.arc.ubc.ca``, symlink each of the ``UBC-ARC/arch-GCC_SOCKEYE.*``
   into the ``XIOS/arch/`` directory.
 
 * Build XIOS with ``./make_xios``.
-  For example, on ``orcinus``, use ``./make_xios --arch X64_ORCINUS --job 8``
+  For example, on ``sockeye``, use ``./make_xios --arch GCC_SOCKEYE --job 8``
 
 Please see the SalishSeaCast NEMO `quick start guide`_ for the system that you are working on
 for more details and specific commands.
