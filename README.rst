@@ -31,7 +31,7 @@ for more details and specific commands.
 License
 =======
 
-The Salish Sea NEMO Model XIOS ARCH files are copyright 2015 – prsent by the
+The Salish Sea NEMO Model XIOS ARCH files are copyright 2015 – present by the
 `Salish Sea MEOPAR Project Contributors`_ and The University of British Columbia.
 
 .. _Salish Sea MEOPAR Project Contributors: https://github.com/SalishSeaCast/docs/blob/main/CONTRIBUTORS.rst
