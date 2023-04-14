@@ -19,11 +19,12 @@ Quick Usage
 
 * Symlink the ``arch-*`` files for the system that you are working on into the
   ``XIOS/arch/`` directory.
-  For example, on ``sockeye.arc.ubc.ca``, symlink each of the ``UBC-ARC/arch-GCC_SOCKEYE.*``
-  into the ``XIOS/arch/`` directory.
+  For example,
+  on ``graham.computecanada.ca``,
+  symlink each of the ``ALLIANCE/arch-X64_GRAHAM.*`` files into the ``XIOS/arch/`` directory.
 
 * Build XIOS with ``./make_xios``.
-  For example, on ``sockeye``, use ``./make_xios --arch GCC_SOCKEYE --job 8``
+  For example, on ``graham``, use ``./make_xios --arch X64_GRAHAM --job 8``
 
 Please see the SalishSeaCast NEMO `quick start guide`_ for the system that you are working on
 for more details and specific commands.
