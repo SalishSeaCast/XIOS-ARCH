@@ -3,8 +3,8 @@
 ################################################################################
 
 %CCOMPILER      mpicc
-%FCOMPILER      mpif90
-%LINKER         mpif90
+%FCOMPILER      mpifort
+%LINKER         mpifort
 
 %BASE_CFLAGS    -ansi -w -D_GLIBCXX_USE_CXX11_ABI=0 -std=c++11
 %PROD_CFLAGS    -O3 -DBOOST_DISABLE_ASSERTS
