@@ -20,11 +20,11 @@ Quick Usage
 * Symlink the ``arch-*`` files for the system that you are working on into the
   ``XIOS/arch/`` directory.
   For example,
-  on ``graham.computecanada.ca``,
-  symlink each of the ``ALLIANCE/arch-X64_GRAHAM.*`` files into the ``XIOS/arch/`` directory.
+  on ``nibi.alliancecan.ca``,
+  symlink each of the ``ALLIANCE/arch-GCC_NIBI.*`` files into the ``XIOS/arch/`` directory.
 
 * Build XIOS with ``./make_xios``.
-  For example, on ``graham``, use ``./make_xios --arch X64_GRAHAM --job 8``
+  For example, on ``nibi``, use ``./make_xios --arch GCC_NIBI --job 8``
 
 Please see the SalishSeaCast NEMO `quick start guide`_ for the system that you are working on
 for more details and specific commands.
