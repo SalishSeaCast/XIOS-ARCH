@@ -2,16 +2,16 @@
 ###################        Projet xios - xmlioserver       #####################
 ################################################################################
 
-%CCOMPILER      mpicc
-%FCOMPILER      mpif90
-%LINKER         mpif90
+%CCOMPILER      mpic++
+%FCOMPILER      mpifort
+%LINKER         mpifort
 
-%BASE_CFLAGS    -ansi -w -D_GLIBCXX_USE_CXX11_ABI=0 -std=c++11
+%BASE_CFLAGS    -ansi -w -std=c++11
 %PROD_CFLAGS    -O3 -DBOOST_DISABLE_ASSERTS
 %DEV_CFLAGS     -g -O2
 %DEBUG_CFLAGS   -g
 
-%BASE_FFLAGS    -D__NONE__ -I/usr/include
+%BASE_FFLAGS    -D__NONE__
 %PROD_FFLAGS    -O3
 %DEV_FFLAGS     -g -O2
 %DEBUG_FFLAGS   -g
@@ -21,4 +21,4 @@
 
 %CPP            cpp
 %FPP            cpp -P
-%MAKE           make
+%MAKE           gmake
